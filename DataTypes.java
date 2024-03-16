@@ -1,4 +1,3 @@
-
 public class DataTypes {
     public static strictfp void main(String[] args) {
         //primitive datatypes are immutable in nature (primary value type)
