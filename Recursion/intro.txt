@@ -1,0 +1,9 @@
+loops and recursion both are used for repetiton
+recursion has an advantage over loop which is 
+in recursion stack is formed so we can go in both direction forward and backward(using push and pop operation)
+but in loops we can move only in one direction 
+
+when function call itself, call stack mei tab tab function push hota jayega
+ek time ke baad stack full ho jayega aur stack overflow error aa jayegi
+
+jo baar baar chalana hai usko recursion mei daal do aur jo ek baar chalana hai usko base case bna do
