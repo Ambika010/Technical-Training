@@ -7,3 +7,10 @@ when function call itself, call stack mei tab tab function push hota jayega
 ek time ke baad stack full ho jayega aur stack overflow error aa jayegi
 
 jo baar baar chalana hai usko recursion mei daal do aur jo ek baar chalana hai usko base case bna do
+
+
+== VS equals
+"Amit" == "Amit"  //compares the address of the two Amit
+a.equals(b)   //compares the values stored in the address (only for string)
+
+book --> head first java (to understand java in detail)
