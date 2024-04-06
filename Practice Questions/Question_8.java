@@ -1,3 +1,5 @@
+//Strong number or peterson number
+//eg:145 is a strong number bcs (1!)+(4!)+(5!)=145
 public class Question_8 {
     public static void main(String[] args) {
         int num=145;
