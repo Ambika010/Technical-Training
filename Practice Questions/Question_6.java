@@ -14,8 +14,8 @@ public class Question_6 {
             copy=copy/10;
             count++;
         }
-        rotate=rotate%count;
-        if(rotate<0){
+        rotate=rotate%count; //if rotation is greater than the no. of digits
+        if(rotate<0){ //when rotation is negative
             rotate=rotate+count;
         }
         int rhs = num % (int)(Math.pow(10, rotate));
