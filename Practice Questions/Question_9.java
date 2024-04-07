@@ -1,3 +1,4 @@
+//swap first and last digit of a number
 public class Question_9 {
     public static void main(String[] args) {
         int num=1234;
