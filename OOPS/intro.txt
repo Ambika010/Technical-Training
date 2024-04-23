@@ -1,0 +1,31 @@
+C-language : no oops, procedural language
+approaching variable(two ways) :
+1.) local
+2.) global(never dead i.e. always alive)
+C-language is not suited for large applications as global variables may get conflicted with others(you need to remember that one variable aur function has a unique name)
+dividing in a class we started getting rid of global variables
+
+OOPS in java is much stronger and clean than OOPS in C++
+
+C++ - provides feature of Data Binding (thus provides with scalable, maintainable, Readable) 
+Due to this feature we started shifting towards OOPS
+
+
+class and object 
+class == blueprint
+object == real - world thing (own states and values) 
+
+class name should always be in pascal case 
+variable name/methods name should always be in camel case
+class name should be a noun
+methods name should be a verb
+class banate time humesha good encapsulation follow krni hai (private variables + public methods)
+initialize through constructor
+always follow DRY and SRP Principle
+update - setter/getter
+this should be used for solving the shadow problem
+
+Principle:
+SOLID Principle
+S - SRP (Single Responsibility Principle) : ek function sirf ek hi kaam krna chahiye (ek class ki ek responsibility aur ek function ki ek responsibility)
+    DRY - dont repeat yourself
