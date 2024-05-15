@@ -6,7 +6,7 @@ public class RecursionDemo{
     static void show(int num){
         //base case --> termination case
         if(num==0){
-            return; //exit from function 
+            return; //exit from the current function call
         }
         System.out.println("Ambika "+num);
         //num - 1; //small problem+recursion
