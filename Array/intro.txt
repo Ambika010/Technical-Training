@@ -1,0 +1,22 @@
+storing single value = variable is opted
+storing collection of values (of same type in case of java) = array is opted
+works on contiguous memory allocation
+provides random access of elements stored in an array
+Address = base Address + index * size : uses this formula for random access
+jvm to jvm the maximum range of array varries(2^31 - 1)
+ordered group of elements
+array can't be resized but dynamic array or list can be resized
+In terms of algorithm problems, array(1D) and strings are very similar
+cache friendly
+best suited for read, search, sorting operations but not suitable for frequent insertion and deletion operations
+
+Array Types:
+1. Static/Fixed Size Array
+   int arr[] = new int[10];
+   need to build operations(CRUD) on its own
+2. Dynamic Size Array (grow and shrink at run time)
+   List<Integer> list = new ArrayList<>();
+   Predefined operations(CRUD)
+   default size is 10 but after 10 it grows by 50% i.e. size will be 15
+
+CRUD : create, read, update, delete
