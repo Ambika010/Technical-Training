@@ -20,3 +20,20 @@ Array Types:
    default size is 10 but after 10 it grows by 50% i.e. size will be 15
 
 CRUD : create, read, update, delete
+
+Array Algorithms:
+1. pointer approach 
+      2-pointer
+      3-pointer
+      sliding window
+      binary search
+2. pre-computation approach
+      prefix sum
+      suffix sum
+3. hashing
+      hash map (key,value) pair where key is unique but values can be duplicate
+      hash table
+      linked hash map (order of insertion is maintained)
+      tree map (sorted by key)
+
+      arrray - second way to acheive hashing
